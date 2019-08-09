@@ -4,7 +4,8 @@ import datetime
 
 day = datetime.datetime.today().weekday()
 days_list = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-print(days_list[day])
+today_day = days_list[day]
+print(today_day)
 
 
 Monday = ["Artificial Intelligence,", "Power Electronics,", "Signals & Systems,", "Microcontrollers,", "Placement Training"]
@@ -15,9 +16,9 @@ Friday = ["Power Electronics,", "Microcontrollers,", "Management & Enterpreneurs
 Saturday = ["Estimation & Costing,", "Signals & Systems,", "Microcontrollers,", "Management & Enterpreneurship"]
 
 
-wekbook_url = '---------URL--------------'
+wekbook_url = 'https://hooks.slack.com/services/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'
 
-send_data = "Todays Timetable is : "
+send_data = "Good Morning Vineet!! \nToday it's " + days_list[day] + "\n\nTimetable is :"
 
 def webhook_send():
     response = requests.post(wekbook_url, data=json.dumps(
