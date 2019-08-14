@@ -16,7 +16,7 @@ Friday = ["Power Electronics,", "Microcontrollers,", "Management & Enterpreneurs
 Saturday = ["Estimation & Costing,", "Signals & Systems,", "Microcontrollers,", "Management & Enterpreneurship"]
 
 
-wekbook_url = 'https://hooks.slack.com/services/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'
+wekbook_url = '-------------------URL------------------'
 
 send_data = "Good Morning Vineet!! \nToday it's " + days_list[day] + "\n\nTimetable is :"
 
